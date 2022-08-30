@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import reloj from '../public/reloj.png';
 import calculadora from '../public/calculadora.png';
-import pokedex from '../public/pokedex.png';
 import Scroll from '../components/Scroll';
 import Github from '../components/Github';
 const Projects = () => {
@@ -72,14 +71,14 @@ const Projects = () => {
         <li className="p-4 m-4 bg-gray-200 rounded-2xl">
           <div className="text-center flex flex-row p-3 justify-around">
             <div className="mx-5">
-              <Link href={'https://pokedex-maurivaz.vercel.app/'}>
+              <Link href={'https://maurivaz.github.io/Clock/'}>
                 <p className="bg-gray-300 hover:bg-gray-400 rounded-xl p-2 cursor-pointer w-fit">
-                  <span>Proyecto Pokédex</span>
+                  <span>Proyecto Reloj Digital</span>
                 </p>
               </Link>
               <p>Proyecto hecho usando NextJS y la pokeapi</p>
               <div>
-                <Link href={'https://github.com/MauriVaz/Pokedex'}>
+                <Link href={'https://github.com/MauriVaz/Clock'}>
                   <p className="bg-gray-300 hover:bg-gray-400 rounded-xl p-2 cursor-pointer w-fit">
                     <span>
                       <Github />
@@ -88,7 +87,7 @@ const Projects = () => {
                 </Link>
               </div>
             </div>
-            <Image src={pokedex} alt="pokedex" width={360} height={240} />
+            <Image src={reloj} alt="reloj" width={360} height={240} />
           </div>
         </li>
       </ul>

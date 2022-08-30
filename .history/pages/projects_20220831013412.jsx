@@ -88,7 +88,7 @@ const Projects = () => {
                 </Link>
               </div>
             </div>
-            <Image src={pokedex} alt="pokedex" width={360} height={240} />
+            <Image src={reloj} alt="reloj" width={360} height={240} />
           </div>
         </li>
       </ul>
