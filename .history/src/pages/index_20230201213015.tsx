@@ -22,11 +22,11 @@ const Home = () => {
             <div className='p-4 relative'>
               <p>I am a Junior Fullstack developer and UX/UI Designer</p>
               <p>I suggest you see my works in the projects section</p>
-              <p className='text-center text-xl font-bold'>I currently know these technologies</p>
+              <p>I currently know these technologies, Typescript, Javascript,HTML,CSS NextJS</p>
               <TextAnimation />
             </div>
             <h2 className='font-bold text-2xl'>You can contact me in these links</h2>
-            <ul className='flex flex-row justify-around items-center'>
+            <ul className='flex flex-row justify-center items-center'>
               <li>
                 <Link href={"https://wa.me/+34663317571"} >
                   <Whatsapp />

@@ -22,7 +22,7 @@ const Home = () => {
             <div className='p-4 relative'>
               <p>I am a Junior Fullstack developer and UX/UI Designer</p>
               <p>I suggest you see my works in the projects section</p>
-              <p className='text-center text-xl font-bold'>I currently know these technologies</p>
+              <p className='text-center text-xl'>I currently know these technologies</p>
               <TextAnimation />
             </div>
             <h2 className='font-bold text-2xl'>You can contact me in these links</h2>

@@ -1,6 +1,18 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
+import Menu from '@/components/Menu'
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+const MyApp = ({ Component, pageProps }: AppProps) => {
+  return (<>
+    <div className='bg-black'>
+      <nav>
+        <Menu />
+      </nav>
+      <div className='mt-8'>
+        <Component {...pageProps} />
+      </div>
+    </div>
+  </>)
 }
+
+export default MyApp;
