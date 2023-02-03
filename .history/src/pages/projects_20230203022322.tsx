@@ -98,7 +98,7 @@ const Projects = () => {
                         </div>
                         <Link
                             href={'https://github.com/MauriVaz/PONG'}>
-                            <Image className='mt-8 drop-shadow-xl shadow-lg shadow-blue-500/50' src={Pong} alt="pokedex" width={1440} height={780} />
+                            <Image className='mt-8 drop-shadow-xl shadow-lg shadow-blue-500/50' src={pokedex} alt="pokedex" width={1440} height={780} />
                         </Link>
                     </div>
                 </li>
