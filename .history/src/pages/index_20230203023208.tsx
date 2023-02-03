@@ -43,7 +43,7 @@ const Home = () => {
         <div className='mb-4 items-center flex justify-center'>
           <Image className='rounded-3xl' alt="foto" src={foto} width={240} height={240} />
         </div>
-        <div className='flex mb-8 justify-center items-center '>
+        <div className='flex justify-center items-center '>
           <button className='rounded-2xl font-bold bg-gray-400 p-4 text-black hover:text-white hover:bg-gris'>
             <Link href={"/CV.pdf"} target="_blank" rel="noopener noreferrer" download="CV Mauricio Santiago Vazquez Costal.pdf">
               Enlace a CV
