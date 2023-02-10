@@ -10,7 +10,7 @@ const TextAnimation = () => {
         const intervalId = setInterval(() => {
             setIndex((index + 1) % texts.length);
             setCurrentText(texts[index]);
-        }, 1500);
+        }, 150);
         return () => clearInterval(intervalId);
     }, [index, texts]);
 
