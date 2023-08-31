@@ -28,7 +28,7 @@ const Home = () => {
             <h2 className='font-bold text-2xl'>You can contact me in these links</h2>
             <ul className='flex flex-row justify-around items-center'>
               <li>
-                <Link href={"https://wa.me/+34663317571"} >
+                <Link href={"https://wa.me/+5213341457504"} >
                   <Whatsapp />
                 </Link>
               </li>
